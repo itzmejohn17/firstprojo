@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <style>
+          form
+          {
+               width: 600px;
+          }
+          input {
+               margin: 9px;
+          }
+          h1 , p {
+               text-align: center;
+          }
+          form {
+               margin: auto;
+          }
+     </style>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <h1>your register form</h1>
+     <p>please register your form.</p> <br>
+     <p>make sure all  the letters must ber in capitalv format. htere should be no small letters like that</p>
+     <form action="Server URL">
+          <fieldset>
+                  <label for="firstname">First name:</label>
+                  <input type="text" id="firstname" name="firstname"> 
+                  <label for="lastname">Last name:</label>
+                  <input type="text" id="lastname" name="lastname">
+                  <label for="password">Password:</label>
+                  <input type="password" id="password" name="password" min="5" max="10" required>
+                  <label for="number">Number:</label>
+                  <input type="number" id="number" name="number" min="8" max="20" required> <br>
+                  <label for="Gender">Gender:</label>
+                  <input type="radio" id="male" name="Gender" required>Male
+                  <input type="radio" id="female" name="Gender" required>Female
+                  <input type="radio" id="other" name="Gender"required>Other <br>
+                  <label for="date">Date:</label>
+                  <input type="date" id="birthday" name="birthday" required><br> 
+                  <label for="file">Upload files:</label> 
+                  <input type="file" id="upload files" name="upload files"required> <br> 
+                  <input type="submit" value="submit">
+          </fieldset>
+     </form>
+</body>
+</html>
